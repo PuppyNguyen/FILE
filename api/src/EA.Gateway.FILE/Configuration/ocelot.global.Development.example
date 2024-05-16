@@ -1,0 +1,9 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://client10.local:5008",
+    "RequestIdKey": null,
+    "UseServiceDiscovery": true,
+    "AdministrationPath": "/administration"
+  }
+
+}

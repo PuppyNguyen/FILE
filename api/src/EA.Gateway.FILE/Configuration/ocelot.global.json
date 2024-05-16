@@ -1,0 +1,9 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://192.168.137.1:5008",
+    "RequestIdKey": null,
+    "UseServiceDiscovery": true,
+    "AdministrationPath": "/administration"
+  }
+
+}

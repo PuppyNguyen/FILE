@@ -1,0 +1,41 @@
+{
+  "ConnectionStrings": {
+    "CoreConnection": "Server=db.local;Database=ES_FILE;User ID=esdev;Password=123456aA@;MultipleActiveResultSets=true",
+    "EventConnection": "Server=db.local;Database=ES_FILE;User ID=esdev;Password=123456aA@;MultipleActiveResultSets=true"
+  },
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Information",
+        "System": "Warning"
+      }
+    },
+    "Elastic": "http://es.local:9200"
+  },
+  "Jwt": {
+    "Key": "pmSFsZNW46w6H7pDFXjYk2jM4SAoZrA5cuspLMh6u73TcF2NiBRVoABJmLa8e9H6",
+    "Issuer": "easternsun",
+    "Audience": "becoxy"
+  },
+  "RabbitConfig": {
+    "RabbitEnabled": false,
+    "RabbitCachePubSubEnabled": true,
+    "RabbitHostName": "mq.local",
+    "RabbitVirtualHost": "core",
+    "RabbitUsername": "admin",
+    "RabbitPassword": "123456aA@E",
+    "RabbitCacheReceiveEndpoint": "",
+    "ConsumerEnabled": false,
+    "PublisherEnabled": true
+  },
+  "ConsulOptions": {
+    "ConsulAddress": "http://consul.local:8500",
+    "ServiceAddress": "http://client10.local:5023",
+    "Name": "file_client10",
+    "Id": "v1",
+    "DisableAgentCheck": false,
+    "Tags": []
+  },
+  "AllowedHosts": "*"
+}

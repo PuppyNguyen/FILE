@@ -1,0 +1,4075 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/get-list",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/get-list",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/get-list-have-active",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/get-list-have-active",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/country/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/country/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/district/get-list",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/district/get-list",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/district/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/district/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/district/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/district/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/district/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/district/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/district/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/district/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/stateprovince/get-list",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/stateprovince/get-list",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/stateprovince/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/stateprovince/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/stateprovince/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/stateprovince/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/stateprovince/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/stateprovince/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/stateprovince/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/stateprovince/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/ward/get-list",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ward/get-list",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/ward/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ward/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/ward/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ward/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/ward/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ward/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/ward/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/ward/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //category api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/category/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/category/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/category/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/category/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/category/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/category/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/category/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/category/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/category/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/category/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //currency api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/currency/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/currency/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/currency/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/currency/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/currency/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/currency/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/currency/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/currency/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/currency/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/currency/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //exchangerate api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/exchangerate/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/exchangerate/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/exchangerate/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/exchangerate/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/exchangerate/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/exchangerate/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/exchangerate/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/exchangerate/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/exchangerate/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/exchangerate/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //groupcategory api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupcategory/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupcategory/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupcategory/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupcategory/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupcategory/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupcategory/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupcategory/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupcategory/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupcategory/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupcategory/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //manufacturer api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/manufacturer/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/manufacturer/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/manufacturer/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/manufacturer/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/manufacturer/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/manufacturer/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/manufacturer/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/manufacturer/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/manufacturer/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/manufacturer/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    // productbrand api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productbrand/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productbrand/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productbrand/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productbrand/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productbrand/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productbrand/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productbrand/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productbrand/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productbrand/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productbrand/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //productorigin api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productorigin/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productorigin/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productorigin/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productorigin/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productorigin/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productorigin/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productorigin/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productorigin/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productorigin/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productorigin/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //warehouse api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/warehouse/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/warehouse/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/warehouse/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/warehouse/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/warehouse/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/warehouse/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/warehouse/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/warehouse/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/warehouse/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/warehouse/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //taxcategory api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/taxcategory/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/taxcategory/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/taxcategory/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/taxcategory/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/taxcategory/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/taxcategory/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/taxcategory/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/taxcategory/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/taxcategory/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/taxcategory/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //deliverytime api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/deliverytime/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/deliverytime/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/deliverytime/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/deliverytime/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/deliverytime/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/deliverytime/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/deliverytime/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/deliverytime/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/deliverytime/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/deliverytime/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //groupunit api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupunit/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupunit/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupunit/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupunit/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupunit/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupunit/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupunit/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupunit/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/groupunit/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/groupunit/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //unit api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/unit/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/unit/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/unit/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/unit/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/unit/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/unit/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/unit/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/unit/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/unit/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/unit/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //producttag api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/producttag/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/producttag/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/producttag/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/producttag/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/producttag/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/producttag/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/producttag/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/producttag/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/producttag/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/producttag/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //store api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/store/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/store/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/store/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/store/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/store/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/store/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/store/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/store/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/store/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/store/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    //product api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/getById/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/getById/{id}",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/product/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productattribute api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattribute/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattribute/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattribute/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattribute/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattribute/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattribute/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattribute/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattribute/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattribute/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattribute/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productattributeoption api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoption/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoption/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoption/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoption/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoption/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoption/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoption/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoption/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoption/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoption/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productattributeoptionset api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoptionset/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoptionset/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoptionset/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoptionset/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoptionset/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoptionset/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoptionset/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoptionset/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributeoptionset/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributeoptionset/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //specificationattribute api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattribute/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattribute/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattribute/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattribute/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattribute/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattribute/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattribute/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattribute/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattribute/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattribute/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //specificationattributeoption api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattributeoption/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattributeoption/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattributeoption/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattributeoption/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattributeoption/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattributeoption/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattributeoption/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattributeoption/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/specificationattributeoption/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/specificationattributeoption/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productreview api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreview/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreview/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreview/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreview/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreview/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreview/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreview/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreview/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreview/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreview/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productcategorymapping api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productcategorymapping/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productcategorymapping/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productcategorymapping/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productcategorymapping/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productcategorymapping/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productcategorymapping/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productcategorymapping/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productcategorymapping/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productinventory api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productinventory/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productinventory/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productinventory/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productinventory/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productinventory/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productinventory/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productinventory/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productinventory/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productmanufacturermapping api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmanufacturermapping/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmanufacturermapping/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmanufacturermapping/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmanufacturermapping/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmanufacturermapping/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmanufacturermapping/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmanufacturermapping/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmanufacturermapping/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productmedia api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmedia/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmedia/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmedia/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmedia/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmedia/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmedia/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productmedia/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productmedia/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productreviewhelpfulness api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreviewhelpfulness/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreviewhelpfulness/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreviewhelpfulness/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreviewhelpfulness/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreviewhelpfulness/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreviewhelpfulness/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productreviewhelpfulness/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productreviewhelpfulness/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //tierprice api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/tierprice/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/tierprice/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/tierprice/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/tierprice/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/tierprice/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/tierprice/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/tierprice/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/tierprice/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productattributemapping api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributemapping/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributemapping/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributemapping/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributemapping/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributemapping/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributemapping/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productattributemapping/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productattributemapping/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productspecificationattributemapping api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productspecificationattributemapping/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productspecificationattributemapping/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productspecificationattributemapping/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productspecificationattributemapping/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productspecificationattributemapping/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productspecificationattributemapping/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productspecificationattributemapping/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productspecificationattributemapping/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productvariantattributevalue api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributevalue/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributevalue/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributevalue/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributevalue/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributevalue/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributevalue/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributevalue/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributevalue/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributevalue/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributevalue/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }, //productvariantattributecombination api
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributecombination/get-list-cbx",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributecombination/get-list-cbx",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributecombination/paging",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributecombination/paging",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributecombination/add",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributecombination/add",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributecombination/edit",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributecombination/edit",
+      "UpstreamHttpMethod": [
+        "Put"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/productvariantattributecombination/delete/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/productvariantattributecombination/delete/{id}",
+      "UpstreamHttpMethod": [
+        "Delete"
+      ],
+      "FileCacheOptions": {
+        "TtlSeconds": 1
+      },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }
+  ]
+}

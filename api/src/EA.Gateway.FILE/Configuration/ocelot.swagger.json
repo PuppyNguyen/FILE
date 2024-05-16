@@ -1,0 +1,20 @@
+{
+
+  "SwaggerEndPoints": [
+    {
+      "Key": "file",
+      "TakeServersFromDownstreamService": true,
+      "Config": [
+        {
+          "Name": "file",
+          "Version": "v1",
+          "Service": {
+            "Name": "file",
+            "Path": "/swagger/v1/swagger.json"
+          },
+          "Url": "http://file-api.becoxy.com:5023/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}

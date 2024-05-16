@@ -1,0 +1,24 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "file_prod",
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/values",
+      "UpstreamHttpMethod": [ "Get" ],
+      "FileCacheOptions": { "TtlSeconds": 1 },
+      "SwaggerKey": "file",
+      "RouteIsCaseSensitive": true,
+      "Key": "values",
+      "Priority": 2,
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "ApiSecurity",
+        "AllowedScopes": []
+      },
+      "DelegatingHandlers": [
+        "TokenHandler"
+      ]
+    }
+  ]
+}
